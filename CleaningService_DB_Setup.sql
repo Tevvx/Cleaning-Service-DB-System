@@ -862,9 +862,9 @@ VALUES
 
 (33, 'Fossil Gen 6 Smartwatch', '2025-01-16', 250.00, 'Sold', 103, 23), 
 
-(34, 'Nike Men’s Running Shoes', '2025-01-18', 90.00, 'Available', 104, 25), 
+(34, 'Nike MenÂ’s Running Shoes', '2025-01-18', 90.00, 'Available', 104, 25), 
 
-(35, 'Leather Handbag - Women’s Fashion', '2025-01-20', 120.00, 'Available', 105, 26), 
+(35, 'Leather Handbag - WomenÂ’s Fashion', '2025-01-20', 120.00, 'Available', 105, 26), 
 
 (36, 'Halloween Costume - Vampire', '2024-11-10', 60.00, 'Inactive', 106, 27), 
 
@@ -902,9 +902,9 @@ VALUES
 
 (53, 'Garmin Venu 2 Smartwatch', '2025-01-16', 399.00, 'Sold', 103, 64), 
 
-(54, 'Men’s Leather Jacket', '2025-01-18', 150.00, 'Available', 104, 65), 
+(54, 'MenÂ’s Leather Jacket', '2025-01-18', 150.00, 'Available', 104, 65), 
 
-(55, 'Women’s Designer Watch', '2025-01-20', 275.00, 'Available', 105, 3), 
+(55, 'WomenÂ’s Designer Watch', '2025-01-20', 275.00, 'Available', 105, 3), 
 
 (56, 'Superhero Costume - Kids', '2024-11-10', 40.00, 'Inactive', 106, 4), 
 

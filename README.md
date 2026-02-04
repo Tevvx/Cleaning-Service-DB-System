@@ -1,33 +1,71 @@
-**Cleaning Service Management System (SQL)**
-Project Overview
-This repository contains a robust Relational Database Management System (RDBMS) designed to manage the operations of a cleaning service business. This project was developed as a major assignment for the Database module at Ngee Ann Polytechnic. It showcases the ability to translate complex business requirements into a functional SQL database with high data integrity.
+# Cleaning Service Management System (SQL)
 
-**Key Features**
-  Relational Schema Design: Implements a normalized structure with entities for Customers, Staff, Services, and Bookings.
-  
-  Data Integrity & Constraints: Utilizes Primary Keys, Foreign Keys, and CHECK constraints to ensure data accuracy and relational consistency.
-  
-  Automated Data Migration: Includes scripts for BULK INSERT to efficiently migrate data from external CSV files into the SQL Server environment.
-  
-  Business Intelligence Queries: Features advanced SQL queries to generate reports on revenue, staff performance, and customer booking trends.
+## Project Overview
 
-Repository Structure
--  Cleaning_Service_DB.sql: The main script containing the DDL (Data Definition Language) and DML (Data Manipulation Language) commands.
+This repository contains a **robust Relational Database Management System (RDBMS)** designed to manage the core operations of a **cleaning service business**. Developed as a major assignment for the **Database module at Ngee Ann Polytechnic**, the project demonstrates the ability to translate **complex business requirements** into a well-structured SQL database with **strong data integrity and relational consistency**.
 
-Technical Skills Demonstrated
-1) SQL Server / T-SQL.
-2) Database Normalization.
-3) Relational Algebra & Constraints.
-4) Data Analysis via SQL Queries.
+---
 
-Academic Achievement
-This project was designed to meet A-Grade criteria, requiring successful implementation of all basic and advanced requirements, thorough testing, and clear documentation.
+## Key Features
 
-**How to use**
-  Clone this repository.
-  
-  Open the .sql script in SQL Server Management Studio (SSMS).
-  
-  Ensure the file paths for the BULK INSERT commands match the location of the CSV files in your data/ folder.
-  
-  Execute the script to build the schema and populate the data.
+### 🧱 Relational Schema Design
+- Designed a **normalized relational schema** with core entities including:
+  - Customers
+  - Staff
+  - Services
+  - Bookings
+- Ensures efficient storage, reduced redundancy, and scalable query performance
+
+### ✅ Data Integrity & Constraints
+- Enforced data accuracy using:
+  - Primary Keys (PK)
+  - Foreign Keys (FK)
+  - `CHECK` constraints
+- Maintained referential integrity across all relational entities
+
+### 📥 Automated Data Migration
+- Implemented **BULK INSERT** scripts to efficiently import external CSV data
+- Enabled scalable data loading into the SQL Server environment
+
+### 📊 Business Intelligence Queries
+- Developed advanced SQL queries to generate insights on:
+  - Revenue performance
+  - Staff productivity
+  - Customer booking trends
+- Supported operational and managerial decision-making
+
+---
+
+## Repository Structure
+
+- **`Cleaning_Service_DB.sql`**  
+  Main SQL script containing:
+  - DDL (Data Definition Language)
+  - DML (Data Manipulation Language)
+
+---
+
+## Technical Skills Demonstrated
+
+- SQL Server / T-SQL  
+- Database Normalization  
+- Relational Constraints & Integrity  
+- Data Analysis via SQL Queries  
+
+---
+
+## Academic Achievement
+
+This project was developed to meet **A-Grade criteria**, requiring:
+- Successful implementation of both **basic and advanced database requirements**
+- Thorough testing of constraints and queries
+- Clear, structured documentation of design decisions
+
+---
+
+## How to Use
+
+1. Clone this repository  
+2. Open the `.sql` script in **SQL Server Management Studio (SSMS)**  
+3. Ensure the file paths in the **BULK INSERT** commands match the CSV files in the `data/` folder  
+4. Execute the script to build the schema and populate the database
